@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #0a0a0a;
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+}
+
+.stopwatch {
+    background-color: rgba(0, 255, 255, 0.05);
+    border: 2px solid #00ffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 0 20px #00ffff, inset 0 0 20px #00ffff;
+}
+
+.display {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: #0a0a0a;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
